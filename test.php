@@ -11,7 +11,9 @@
     echo "<br> So Let's Do this";
     $a=24;$b="Aman";
     echo $a;
-    print($b)
+    print($b);
+    echo " phpversion() <br>";
+    echo $_SERVER['HTTP_HOST'];
     ?>
 </body>
 </html>
