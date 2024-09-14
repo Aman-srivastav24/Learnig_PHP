@@ -12,7 +12,16 @@
     $pass = $_POST['passtxt'];
     echo "$user";
     echo "$pass";
+    $ckname = "name";
+    $cknamevalue=$user;
+    setcookie($ckname,$cknamevalue);
+    $ckpass="password";
+    $ckpassvalue=$pass;
+    setcookie($ckpass,$ckpassvalue)
     ?>
+    <form action="page2.php" method="post">
+        <button type="submit">submit</button>
+    </form>
 </center>
 </body>
 </html>

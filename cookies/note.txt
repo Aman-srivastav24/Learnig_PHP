@@ -1,0 +1,5 @@
+What is Cookies ?
+Actually Cookies is a browser memory which store the data for further uses.
+--> To save the cookies we have to define/set the (name and value) of cookie.
+To set cookies we use , setcookie(name,value);
+To get value form cookie we use , $_COOKIE['cookiename THat we set in previous page'];
